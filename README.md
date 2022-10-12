@@ -43,9 +43,67 @@ Loop from 100 to 200:
 End loop
 ```
 
+- Scope in JavaScript (Global and Local)
 
+- Truthy and Falsey (==, ===)
+
+``` 
+False
+// False is False. Makes sense, right?
+
+0
+// 0 is the only falsey Number
+
+""
+// an empty string is falsey
+
+null
+// a null, or empty value, is falsey.
+
+undefined
+// an object that has not been defined is considered falsey.
+
+NaN
+// Not a Number. You'll learn more about NaN as we go on.
+
+```
+
+- Object in JavaScript
+
+```
+let car = {
+    brand: 'toyota',
+    model: 'GT86',
+    year:  2019,
+    transmissionType: 'manual'
+  }
+```
+```  
+value MUST have a specific key.
+
+Objects are denotes with {} brackets 
+```
+- Functions in JavaScrit
+
+- Callback Function
+
+```
+A callback function is a function, that is a parameter that goes into another function (high order function).
+
+The high order function may call that function.
+```
 
 ## Week 2
+
+- Test Driven Development(TDD)
+
+``` TDD is the idea of TDD is that the tests are developed for your code before actually writing the code.```
+
+- Automated testing scripts in Mocha and Chai
+
+- Module.exports the function to be tested
+
+- Synchronous and Asynchronous
 ## Week 3
 ## Week 4
 ## Week 5
@@ -54,5 +112,8 @@ End loop
 ## Week 8
 ## Week 9
 ## Week 10
+
 ## Week 11
+- FINAL PROJECT
 ## Week 12
+- FINAL PROJECT
