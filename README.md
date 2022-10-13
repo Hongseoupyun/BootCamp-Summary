@@ -146,7 +146,8 @@ server.listen(PORT, () => {
 - Request <----> Response
 
 ```
-A client always asks a server for a request, and a server always has to give back a response. This is how the two comunicate with each other. A typical request/response senario is:
+A client always asks a server for a request, and a server always has to give back a response. This is how the two comunicate with each other.
+A typical request/response senario is:
 ```
 
 - ExpressJS
@@ -172,7 +173,8 @@ app.listen(port, () => {
 
 Verbs: ```GET```, ```POST```,``` PUT```, ```PATCH```, ```DELETE```
 
-- REST : REST means that the path that we are going to should represent the data being transferred. An API that uses the REST convention is said to be RESTful.
+- REST : REST means that the path that we are going to should represent the data being transferred.
+An API that uses the REST convention is said to be RESTful.
 
 - Cookies : "n HTTP cookie is a small piece of data sent from a website and stored on the user's computer by the user's web browser while the user is browsing. Cookies were designed to be a reliable mechanism for websites to remember stateful information or to record the user's browsing activity." 
 - To check your cookies go into Chrome Dev ```tools``` -->``` Application ```--> ```Storage``` ---> ```Cookies``` ---> ```localhost ```or any other website.
@@ -232,7 +234,9 @@ DOM is like a tree structure of your HTML elements. The DOM lets us traverse thr
 - JQuery/AJAX
 
 ```
-Ajax is a set of web development techniques using many web technologies on the client side to create asynchronous web applications. With Ajax, web applications can send and retrieve data from a server asynchronously without interfering with the display and behavior of the existing page. 
+Ajax is a set of web development techniques using many web technologies on the client side to create asynchronous web applications. 
+With Ajax, web applications can send and retrieve data from a server asynchronously without interfering with the display and 
+behavior of the existing page. 
 ```
 ```
  $('form').on('submit', (evt) => {
