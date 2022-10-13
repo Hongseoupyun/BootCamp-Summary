@@ -104,7 +104,30 @@ The high order function may call that function.
 - Module.exports the function to be tested
 
 - Synchronous and Asynchronous
+
+```
+A synchronous waiter would take an order from a customer deliver it to the cooks and then wait for the food to finish before taking another order.
+
+A more typical waiter is asynchronous. They take a customers order, deliver it to the chef then continue to take orders until the food finishes, at which point they give the meal to the customer.
+```
+
+- Networking with TCP, HTTP'
+
+- Promises and callback
+```
+diceRoll().then( (number) => {
+  console.log("THE NUMBER IS ", number);
+});
+```
+
 ## Week 3
+
+- Web Servers
+- NodeJS Server
+- Request <----> Response
+- ExpressJS
+
+
 ## Week 4
 ## Week 5
 ## Week 6
